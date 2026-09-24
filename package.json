@@ -1,0 +1,11 @@
+{
+  "name": "react-registration-root",
+  "private": true,
+  "scripts": {
+    "client": "npm --prefix ./client run dev -- --host 0.0.0.0",
+    "server": "npm --prefix ./server run dev",
+    "dev": "npm run client",
+    "build": "npm --prefix ./client run build",
+    "preview": "npm --prefix ./client run preview -- --host 0.0.0.0"
+  }
+}
