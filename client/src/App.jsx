@@ -42,7 +42,7 @@ const initialForm = {
   arrears: '0',
 }
 
-const API_URL = 'http://localhost:5000/api/students'
+const API_URL = 'https://student-registration-w9xl.onrender.com/api/students'
 
 function getStoredRegistrations() {
   const stored = localStorage.getItem('studentRegistrations')
